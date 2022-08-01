@@ -1,0 +1,192 @@
+header {
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    
+    
+}
+
+.navbar {
+    border: solid 1px grey;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.totalwidth {
+    width: 100vw;
+}
+
+.totalwidth a {
+    text-decoration: none;
+    color: lightgray;
+}
+.totalwidth li {
+    margin: 12px auto;
+}
+
+.totalwidth a:hover {
+    color: gray;
+}
+
+
+.title {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.452);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.title2 {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.205);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input, select {
+    width: 800px;
+}
+.input {
+    padding: 10px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.inputana {
+    width: 300px;
+}
+.input input {
+    margin: 0px 10px;
+}
+
+input, select {
+    width: 150px;
+}
+select {
+    margin-right: 10px;
+}
+
+i {
+    margin: 0 10px;
+}
+.validation-button {
+    width: 100%;
+    color: white;
+    background-color: rgba(40, 209, 40, 0.671);
+}
+
+.validation-button:hover {
+    color: white;
+    font-weight: bold;
+    background-color: rgba(40, 209, 40, 0.671);
+
+}
+
+article {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+article img {
+    margin: 20px;
+}
+
+.img-product {
+width: 320px;
+height: 250px;
+}
+
+.slider img {
+    max-width: 100%;
+    display: none;
+}
+
+img.active {
+    display: block;
+    animation: fade 0.8s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.slider {
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    max-width: 500px;
+}
+
+.eleanor {
+    width: 320px;
+    height: 250px;
+}
+
+.cont-btn {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+}
+
+.btn-nav {
+    font-size: 50px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    width: 30vw;
+    }
+
+.pay-button {
+    background-color: rgb(15, 138, 15);
+    width: fit-content;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    border: solid 1px lightblue;
+    border-radius: 4px;
+}
+.footer img {
+    margin: 0 20px;
+}
+footer img {
+    width: 100px;
+    height: auto;
+}

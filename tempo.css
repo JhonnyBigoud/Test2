@@ -1,0 +1,7 @@
+.slider img {
+    display: none;
+}
+
+img.active {
+    display: block;
+}
